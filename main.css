@@ -1,1 +1,72 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.header__navigation {
+  width: 527px;
+  margin-left: -30px;
+}
+.header__navigation .navigation__list {
+  list-style-type: none;
+}
+.header__navigation .navigation__link {
+  font-family: Red Hat Text;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #FFF;
+  transition: 0.3s ease-in-out;
+}
+.header__navigation :hover {
+  color: #0D606F;
+}
+.header__navigation ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  background-color: #0D606F;
+  color: #FFF;
+  font-family: Red Hat Text;
+  font-size: 16px;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.header__button {
+  width: 103px;
+  box-shadow: 0px 1px 0px 0px gray;
+  padding: 10px;
+}
+
+.header {
+  background-color: #F2785C;
+  opacity: 0.7;
+}
+.header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+}
+.header .logo__link {
+  width: 208px;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.header .logo__link .logo__subtitle {
+  font-size: 32px;
+  font-family: Magra;
+  font-weight: 700;
+  color: #FFF;
+}/*# sourceMappingURL=main.css.map */

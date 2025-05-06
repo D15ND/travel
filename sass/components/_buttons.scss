@@ -1,0 +1,15 @@
+.button {
+  background-color: $color-green;
+  color: $color-white;
+  font-family: Red Hat Text;
+  font-size: 16px;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.header__button {
+  width: 103px;
+  box-shadow: 0px 1px 0px 0px gray;
+  padding: 10px;
+}
