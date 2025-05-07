@@ -15,33 +15,50 @@
 </head>
 
 <body>
-  <header class="header">
-    <div class="wrapper">
-      <div class="header__logo">
-        <a href="#!" class="logo__link">
-          <img src="./assets/logo.svg" alt="logo">
-          <p class="logo__subtitle">Travel Portal</p>
-        </a>
+  <div class="upper__header">
+    <header class="header">
+      <div class="wrapper">
+        <div class="header__logo">
+          <a href="#!" class="logo__link">
+            <img src="./assets/logo.svg" alt="logo">
+            <p class="logo__subtitle">Travel Portal</p>
+          </a>
+        </div>
+        <div class="header__navigation">
+          <ul>
+            <li class="navigation__list">
+              <a href="#!" class="navigation__link">How It Works</a>
+            </li>
+            <li class="navigation__list">
+              <a href="#!" class="navigation__link">Plan Your Trip</a>
+            </li>
+            <li class="navigation__list">
+              <a href="#!" class="navigation__link">Destinations</a>
+            </li>
+            <li class="navigation__list">
+              <a href="#!" class="navigation__link">Travel Stories</a>
+            </li>
+          </ul>
+        </div>
+        <a href="#!" class="header__button button">Login</a>
       </div>
-      <div class="header__navigation">
-        <ul>
-          <li class="navigation__list">
-            <a href="#!" class="navigation__link">How It Works</a>
-          </li>
-          <li class="navigation__list">
-            <a href="#!" class="navigation__link">Plan Your Trip</a>
-          </li>
-          <li class="navigation__list">
-            <a href="#!" class="navigation__link">Destinations</a>
-          </li>
-          <li class="navigation__list">
-            <a href="#!" class="navigation__link">Travel Stories</a>
-          </li>
-        </ul>
-      </div>
-      <a href="#!" class="header__button button">Login</a>
-    </div>
-  </header>
+    </header>
+    <main class="main">
+      <section class="trip">
+        <div class="wrapper">
+          <div class="trip__info">
+            <h1 class="trip__title">Explore the beauty of the World</h1>
+            <p class="trip__description">Receive personalized recommendations for countries, hotels, activities and more
+            </p>
+            <form class="trip__form">
+              <input class="form__input" type="text" maxlength="40" placeholder="What would you like to do?">
+              <a href="#!" class="trip__button button">Start Planning</a>
+            </form>
+          </div>
+        </div>
+      </section>
+  </div>
+  </main>
 
 </body>
 

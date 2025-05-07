@@ -6,6 +6,9 @@
   border-radius: 10px;
   text-decoration: none;
   text-align: center;
+  transition: 0.3s ease-in-out;
+}:hover {
+  color: black;
 }
 
 .header__button {
