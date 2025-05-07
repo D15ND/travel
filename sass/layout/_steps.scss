@@ -1,0 +1,42 @@
+.steps {
+  margin-bottom: 97px;
+
+  .wrapper {
+    padding: 0 12px;
+  }
+
+  .steps__subtitle {
+    display: flex;
+    justify-content: center;
+    font-family: Red Hat Text;
+    font-size: 40px;
+    font-weight: 500;
+    color: $color-orange;
+    margin-bottom: 40px;
+  }
+
+  .steps__block {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .steps__card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .step__img {
+    margin-bottom: 30px;
+  }
+
+  .card__description {
+    font-family: Aleo;
+    font-size: 20px;
+    color: $color-green;
+  }
+
+  .card-middle {
+    margin-left: 66px;
+  }
+}

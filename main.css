@@ -83,6 +83,9 @@
   color: #FFF;
 }
 
+.trip {
+  margin-bottom: 80px;
+}
 .trip .wrapper {
   display: flex;
   justify-content: start;
@@ -138,4 +141,40 @@
   font-size: 24px;
   margin-right: 18px;
   letter-spacing: 0.5px;
+}
+
+.steps {
+  margin-bottom: 97px;
+}
+.steps .wrapper {
+  padding: 0 12px;
+}
+.steps .steps__subtitle {
+  display: flex;
+  justify-content: center;
+  font-family: Red Hat Text;
+  font-size: 40px;
+  font-weight: 500;
+  color: #F2785C;
+  margin-bottom: 40px;
+}
+.steps .steps__block {
+  display: flex;
+  justify-content: space-between;
+}
+.steps .steps__card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.steps .step__img {
+  margin-bottom: 30px;
+}
+.steps .card__description {
+  font-family: Aleo;
+  font-size: 20px;
+  color: #0D606F;
+}
+.steps .card-middle {
+  margin-left: 66px;
 }/*# sourceMappingURL=main.css.map */
