@@ -10,8 +10,10 @@
 }
 
 .upper__header {
-  background-image: url("/assets/desktop/garrett_rock.png");
+  // background-image: url("/assets/desktop/garrett_rock.png");
+  background-image: url("../../assets/desktop/garrett_rock.png");
   background-repeat: no-repeat;
+  // background-size: cover; Без отображает корректно фон только на 1440px, на разрешении больше - фон режется и меньше секции
 }
 
 .bg-image {
