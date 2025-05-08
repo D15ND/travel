@@ -126,8 +126,7 @@
   width: 892px;
   display: flex;
   justify-content: space-between;
-  background-color: #FFF;
-  opacity: 0.7;
+  background-color: rgba(255, 255, 255, 0.7);
   border-radius: 15px;
   padding: 19px 0;
 }
@@ -141,6 +140,7 @@
   outline: none;
   border: 0;
   outline-offset: 0;
+  background-color: transparent;
 }
 .trip .trip__form ::-moz-placeholder {
   color: #F2785C;
@@ -244,6 +244,7 @@
 }
 
 .stories__fone {
+  opacity: 0.7;
   padding-top: 40px;
 }
 .stories__fone .wrapper {
