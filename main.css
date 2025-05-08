@@ -14,6 +14,12 @@
   background-repeat: no-repeat;
 }
 
+.bg-image {
+  background-image: url("./../../assets/desktop/water_icerock.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .header__navigation {
   width: 527px;
   margin-left: -30px;
@@ -177,4 +183,150 @@
 }
 .steps .card-middle {
   margin-left: 66px;
+}
+
+.destination {
+  margin-bottom: 80px;
+}
+.destination .destination__subtitle {
+  display: flex;
+  justify-content: center;
+  font-family: Red Hat Text;
+  font-size: 40px;
+  font-weight: 500;
+  color: #F2785C;
+  margin-bottom: 46px;
+}
+.destination .slider {
+  display: flex;
+  margin-bottom: 24px;
+  gap: 60px;
+}
+.destination .slider__img {
+  border-radius: 16px;
+}
+.destination .slider__swipe {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none;
+  margin-bottom: 33px;
+}
+.destination .destination__button {
+  width: 228px;
+  padding: 9px 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  transition: 0.3s ease-in-out;
+}
+.destination .button__arrow {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.destination .button__text {
+  font-family: Red Hat Text;
+  font-size: 24px;
+  font-weight: 500;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+}
+
+.stories__fone {
+  opacity: 0.7;
+  padding-top: 40px;
+}
+.stories__fone .wrapper {
+  padding-bottom: 42px;
+}
+
+.stories__title {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  color: #F2785C;
+  font-family: Red Hat Text;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 41px;
+}
+
+.stories__block {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+.stories__block .stories__img {
+  border-radius: 16px;
+}
+.stories__block .stories__subtitle {
+  font-family: Aleo;
+  font-size: 35px;
+  color: #0D606F;
+  letter-spacing: -1px;
+  margin-bottom: 24px;
+}
+.stories__block .stories__description {
+  font-family: Aleo;
+  font-size: 20px;
+  color: #0D606F;
+  width: 765px;
+}
+
+.stories__block-margin {
+  margin-bottom: 41px;
+}
+
+.stories__button {
+  width: 228px;
+  padding: 9px 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.button__arrow {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.button__text {
+  font-family: Red Hat Text;
+  font-size: 24px;
+  font-weight: 500;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+}
+
+.footer .wrapper {
+  display: flex;
+  justify-content: end;
+}
+.footer .footer__block {
+  display: flex;
+  justify-content: space-between;
+  width: 730px;
+  padding: 11px 0;
+}
+.footer .footer__block .footer__info {
+  font-family: Red Hat Text;
+  font-weight: 500;
+  color: #FFF;
+  align-items: center;
+  display: flex;
+}
+.footer .footer__social {
+  display: flex;
+  justify-content: space-between;
+  width: 140px;
 }/*# sourceMappingURL=main.css.map */

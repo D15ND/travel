@@ -1,0 +1,72 @@
+.stories__fone {
+  opacity: 0.7;
+  padding-top: 40px;
+  .wrapper {
+    padding-bottom: 42px;
+  }
+}
+
+.stories__title {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  color: $color-orange;
+  font-family: Red Hat Text;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 41px;
+}
+
+.stories__block {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 30px;
+
+  .stories__img {
+    border-radius: 16px;
+  }
+  .stories__subtitle {
+    font-family: Aleo;
+    font-size: 35px;
+    color: $color-green;
+    letter-spacing: -1px;
+    margin-bottom: 24px;
+  }
+  .stories__description {
+    font-family: Aleo;
+    font-size: 20px;
+    color: $color-green;
+    width: 765px;
+  }
+}
+
+.stories__block-margin {
+  margin-bottom: 41px;
+}
+
+.stories__button {
+  width: 228px;
+  padding: 9px 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.button__arrow {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.button__text {
+  font-family: Red Hat Text;
+  font-size: 24px;
+  font-weight: 500;
+  color: $color-white;
+  display: flex;
+  align-items: center;
+}
