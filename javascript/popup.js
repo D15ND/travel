@@ -30,4 +30,5 @@ function closeOnBackdropClick({ currentTarget, target }) {
 popup.addEventListener('click', closeOnBackdropClick);
 popup.addEventListener('cancel', () => {
   returnScroll();
+  popup.style.display="none";
 })
