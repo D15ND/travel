@@ -31,6 +31,9 @@
     display: flex;
     justify-content: space-between;
     text-decoration: none;
+    @include media-mobile {
+      width: auto;
+    }
     .logo__subtitle {
       font-size: 32px;
       font-family: Magra;

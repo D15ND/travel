@@ -21,31 +21,11 @@ html {
 
 .stories__fone {
   background-image: url("./assets/desktop/water_icerock.png");
-  // background: linear-gradient(
-  //   rgba(0, 0, 0, 0.7),
-  //   rgba(0, 0, 0, 0.7)
-  // ), url("./../../assets/desktop/water_icerock.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
   opacity: 0.7;
 }
-
-// .stories__fone::before {
-//   content: "";
-//   position: absolute;
-//   top: 0; left: 0; right: 0; bottom: 0;
-//   background-image: url("./../../assets/desktop/water_icerock.png");
-//   background-size: cover;
-//   background-position: center;
-//   opacity: 0.7; /* прозрачность фона, 0 — полностью прозрачный, 1 — полностью непрозрачный */
-//   z-index: 0; /* под контентом */
-// }
-
-// .content {
-//   position: relative;
-//   z-index: 1; /* поверх псевдоэлемента, чтобы был видно */
-// }
 
 .footer {
   background-image: url("./assets/desktop/water_icerock.png");

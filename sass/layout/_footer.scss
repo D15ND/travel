@@ -9,12 +9,18 @@
     justify-content: space-between;
     width: 730px;
     padding: 11px 0;
+    @include media-mobile {
+      justify-content: center;
+    }
     .footer__info {
       font-family: Red Hat Text;
       font-weight: 500;
       color: $color-white;
       align-items: center;
       display: flex;
+      @include media-mobile {
+        display: none;
+      }
     }
   }
 

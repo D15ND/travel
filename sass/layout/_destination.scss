@@ -1,5 +1,8 @@
 .destination {
   margin-bottom: 80px;
+  @include media-mobile {
+    margin-bottom: 20px;
+  }
   .destination__subtitle {
     display: flex;
     justify-content: center;
