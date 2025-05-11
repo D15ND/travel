@@ -575,7 +575,7 @@ html {
 @media (max-width: 390px) {
   .destination .destination__subtitle {
     font-size: 14px;
-    margin-bottom: 23px;
+    margin-bottom: 20px;
   }
 }
 .destination .slider {
@@ -629,7 +629,7 @@ html {
 @media (max-width: 390px) {
   .stories__fone .wrapper {
     max-width: 360px;
-    padding-bottom: 13px;
+    padding-bottom: 21px;
   }
 }
 
@@ -685,6 +685,7 @@ html {
     font-weight: 700;
     color: black;
     margin-bottom: 10px;
+    letter-spacing: 0;
   }
 }
 .stories__block .stories__description {
@@ -698,6 +699,7 @@ html {
     font-size: 9px;
     max-width: 195px;
     color: black;
+    letter-spacing: -1px;
   }
 }
 
@@ -723,6 +725,7 @@ html {
 @media (max-width: 390px) {
   .footer .footer__block {
     justify-content: center;
+    padding: 14px 0;
   }
 }
 .footer .footer__block .footer__info {
