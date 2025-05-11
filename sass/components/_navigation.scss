@@ -1,6 +1,9 @@
 .header__navigation {
   width: 527px;
   margin-left: -30px;
+  @include media-mobile {
+    display: none;
+  }
 
   .navigation__list {
     list-style-type: none;

@@ -1,5 +1,8 @@
 .steps {
   margin-bottom: 97px;
+  @include media-mobile {
+    margin-bottom: 20px;
+  }
 
   .wrapper {
     padding: 0 12px;
@@ -13,6 +16,10 @@
     font-weight: 500;
     color: $color-orange;
     margin-bottom: 40px;
+    @include media-mobile {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
   }
 
   .steps__block {
@@ -28,15 +35,26 @@
 
   .step__img {
     margin-bottom: 30px;
+    @include media-mobile {
+      width: 70px;
+      margin-bottom: 20px;
+    }
   }
 
   .card__description {
     font-family: Aleo;
     font-size: 20px;
     color: $color-green;
+    @include media-mobile {
+      font-size: 10px;
+      text-align: center;
+    }
   }
 
   .card-middle {
     margin-left: 66px;
+    @include media-mobile {
+      margin-left: 25px;
+    }
   }
 }

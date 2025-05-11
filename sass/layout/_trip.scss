@@ -1,5 +1,8 @@
 .trip {
   margin-bottom: 80px;
+  @include media-mobile {
+    margin-bottom: 20px;
+  }
 
   .wrapper {
     display: flex;
@@ -9,6 +12,11 @@
   .trip__info {
     width: 890px;
     padding-bottom: 254px;
+    @include media-mobile {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 61px;
+    }
   }
 
   .trip__title {
@@ -17,6 +25,9 @@
     font-weight: 700;
     color: $color-white;
     margin-bottom: 32px;
+    @include media-mobile {
+      display: none;
+    }
   }
 
   .trip__description {
@@ -26,6 +37,9 @@
     font-style: italic;
     color: $color-white;
     margin-bottom: 46px;
+    @include media-mobile {
+      display: none;
+    }
   }
 
   .trip__form {
@@ -35,6 +49,10 @@
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 15px;
     padding: 19px 0;
+    @include media-mobile {
+      max-width: 360px;
+      padding: 8px 0;
+    }
     .form__input {
       width: 560px;
       margin-left: 41px;
@@ -47,18 +65,19 @@
       outline-offset: 0;
       background-color: transparent;
       color: $color-orange;
+      @include media-mobile {
+        font-size: 14px;
+        margin-left: 16px;
+        letter-spacing: -0.5px;
+      }
     }::placeholder {
       color: $color-orange;
       font-family: Aleo;
       font-style: italic;
       font-size: 24px;
-    }
-    .trip__button {
-      width: 228px;
-      padding: 13px 0;
-      font-size: 24px;
-      margin-right: 18px;
-      letter-spacing: 0.5px;
+      @include media-mobile {
+        font-size: 14px;
+      }
     }
   }
 }

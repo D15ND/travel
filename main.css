@@ -38,6 +38,11 @@ html {
   width: 527px;
   margin-left: -30px;
 }
+@media (max-width: 390px) {
+  .header__navigation {
+    display: none;
+  }
+}
 .header__navigation .navigation__list {
   list-style-type: none;
 }
@@ -67,6 +72,13 @@ html {
   text-align: center;
   transition: 0.3s ease-in-out;
 }
+@media (max-width: 390px) {
+  .button {
+    width: 92px;
+    font-size: 11px;
+    font-weight: 500;
+  }
+}
 
 :hover {
   color: black;
@@ -76,6 +88,75 @@ html {
   width: 103px;
   box-shadow: 0px 1px 0px 0px gray;
   padding: 10px;
+}
+@media (max-width: 390px) {
+  .header__button {
+    display: none;
+  }
+}
+
+.trip__button {
+  width: 228px;
+  padding: 13px 0;
+  font-size: 24px;
+  margin-right: 18px;
+  letter-spacing: 0.5px;
+}
+@media (max-width: 390px) {
+  .trip__button {
+    font-size: 11px;
+    font-weight: 500;
+    padding: 9px 0;
+    margin-right: 3px;
+  }
+}
+
+.destination__button {
+  width: 228px;
+  padding: 9px 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  transition: 0.3s ease-in-out;
+}
+.destination__button .button__arrow {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.destination__button .button__text {
+  font-family: Red Hat Text;
+  font-size: 24px;
+  font-weight: 500;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+}
+
+.stories__button {
+  width: 228px;
+  padding: 9px 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  transition: 0.3s ease-in-out;
+}
+.stories__button .button__arrow {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.stories__button .button__text {
+  font-family: Red Hat Text;
+  font-size: 24px;
+  font-weight: 500;
+  color: #FFF;
+  display: flex;
+  align-items: center;
 }
 
 .popup__login {
@@ -236,16 +317,37 @@ html {
   overflow: hidden;
 }
 
+@media (max-width: 390px) {
+  .upper__header {
+    background-image: url("../../assets/mobile/garrett_main.png");
+    background-size: auto;
+    background-position-x: center;
+    background-repeat: no-repeat;
+  }
+}
+
 .header {
   background-color: rgba(242, 120, 92, 0.7);
   box-shadow: 0px 1px 8px #0D606F;
   margin-bottom: 30px;
+}
+@media (max-width: 390px) {
+  .header {
+    background-color: transparent;
+    box-shadow: inset 0px 40px 15px -15px rgba(13, 96, 111, 0.7);
+  }
 }
 .header .wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 25px 0;
+}
+@media (max-width: 390px) {
+  .header .wrapper {
+    padding-top: 43px;
+    margin-bottom: 43px;
+  }
 }
 .header .logo__link {
   width: 208px;
@@ -259,9 +361,19 @@ html {
   font-weight: 700;
   color: #FFF;
 }
+@media (max-width: 390px) {
+  .header .logo__link .logo__subtitle {
+    display: none;
+  }
+}
 
 .trip {
   margin-bottom: 80px;
+}
+@media (max-width: 390px) {
+  .trip {
+    margin-bottom: 20px;
+  }
 }
 .trip .wrapper {
   display: flex;
@@ -271,12 +383,24 @@ html {
   width: 890px;
   padding-bottom: 254px;
 }
+@media (max-width: 390px) {
+  .trip .trip__info {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 61px;
+  }
+}
 .trip .trip__title {
   font-family: Aleo;
   font-size: 80px;
   font-weight: 700;
   color: #FFF;
   margin-bottom: 32px;
+}
+@media (max-width: 390px) {
+  .trip .trip__title {
+    display: none;
+  }
 }
 .trip .trip__description {
   font-family: Aleo;
@@ -286,6 +410,11 @@ html {
   color: #FFF;
   margin-bottom: 46px;
 }
+@media (max-width: 390px) {
+  .trip .trip__description {
+    display: none;
+  }
+}
 .trip .trip__form {
   width: 892px;
   display: flex;
@@ -293,6 +422,12 @@ html {
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 15px;
   padding: 19px 0;
+}
+@media (max-width: 390px) {
+  .trip .trip__form {
+    max-width: 360px;
+    padding: 8px 0;
+  }
 }
 .trip .trip__form .form__input {
   width: 560px;
@@ -307,6 +442,13 @@ html {
   background-color: transparent;
   color: #F2785C;
 }
+@media (max-width: 390px) {
+  .trip .trip__form .form__input {
+    font-size: 14px;
+    margin-left: 16px;
+    letter-spacing: -0.5px;
+  }
+}
 .trip .trip__form ::-moz-placeholder {
   color: #F2785C;
   font-family: Aleo;
@@ -319,16 +461,22 @@ html {
   font-style: italic;
   font-size: 24px;
 }
-.trip .trip__form .trip__button {
-  width: 228px;
-  padding: 13px 0;
-  font-size: 24px;
-  margin-right: 18px;
-  letter-spacing: 0.5px;
+@media (max-width: 390px) {
+  .trip .trip__form ::-moz-placeholder {
+    font-size: 14px;
+  }
+  .trip .trip__form ::placeholder {
+    font-size: 14px;
+  }
 }
 
 .steps {
   margin-bottom: 97px;
+}
+@media (max-width: 390px) {
+  .steps {
+    margin-bottom: 20px;
+  }
 }
 .steps .wrapper {
   padding: 0 12px;
@@ -342,6 +490,12 @@ html {
   color: #F2785C;
   margin-bottom: 40px;
 }
+@media (max-width: 390px) {
+  .steps .steps__subtitle {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+}
 .steps .steps__block {
   display: flex;
   justify-content: space-between;
@@ -354,13 +508,30 @@ html {
 .steps .step__img {
   margin-bottom: 30px;
 }
+@media (max-width: 390px) {
+  .steps .step__img {
+    width: 70px;
+    margin-bottom: 20px;
+  }
+}
 .steps .card__description {
   font-family: Aleo;
   font-size: 20px;
   color: #0D606F;
 }
+@media (max-width: 390px) {
+  .steps .card__description {
+    font-size: 10px;
+    text-align: center;
+  }
+}
 .steps .card-middle {
   margin-left: 66px;
+}
+@media (max-width: 390px) {
+  .steps .card-middle {
+    margin-left: 25px;
+  }
 }
 
 .destination {
@@ -374,6 +545,12 @@ html {
   font-weight: 500;
   color: #F2785C;
   margin-bottom: 46px;
+}
+@media (max-width: 390px) {
+  .destination .destination__subtitle {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
 }
 .destination .slider {
   display: flex;
@@ -391,29 +568,6 @@ html {
   gap: 10px;
   text-decoration: none;
   margin-bottom: 33px;
-}
-.destination .destination__button {
-  width: 228px;
-  padding: 9px 0;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  transition: 0.3s ease-in-out;
-}
-.destination .button__arrow {
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-}
-.destination .button__text {
-  font-family: Red Hat Text;
-  font-size: 24px;
-  font-weight: 500;
-  color: #FFF;
-  display: flex;
-  align-items: center;
 }
 
 .stories__fone {
@@ -459,32 +613,6 @@ html {
 
 .stories__block-margin {
   margin-bottom: 41px;
-}
-
-.stories__button {
-  width: 228px;
-  padding: 9px 0;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  transition: 0.3s ease-in-out;
-}
-
-.button__arrow {
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-}
-
-.button__text {
-  font-family: Red Hat Text;
-  font-size: 24px;
-  font-weight: 500;
-  color: #FFF;
-  display: flex;
-  align-items: center;
 }
 
 .footer .wrapper {
