@@ -77,6 +77,8 @@ html {
     width: 92px;
     font-size: 11px;
     font-weight: 500;
+    height: 30px;
+    align-items: center;
   }
 }
 
@@ -358,8 +360,9 @@ html {
 }
 @media (max-width: 390px) {
   .header .wrapper {
-    padding-top: 43px;
+    padding-top: 45px;
     margin-bottom: 43px;
+    max-width: 360px;
   }
 }
 .header .logo__link {
@@ -572,7 +575,7 @@ html {
 @media (max-width: 390px) {
   .destination .destination__subtitle {
     font-size: 14px;
-    margin-bottom: 20px;
+    margin-bottom: 23px;
   }
 }
 .destination .slider {
@@ -581,6 +584,11 @@ html {
   margin-bottom: 24px;
   gap: 60px;
   overflow-x: hidden;
+}
+@media (max-width: 390px) {
+  .destination .slider {
+    margin-bottom: -30px;
+  }
 }
 .destination .slider__img {
   border-radius: 16px;
@@ -591,6 +599,20 @@ html {
   gap: 10px;
   text-decoration: none;
   margin-bottom: 33px;
+}
+@media (max-width: 390px) {
+  .destination .slider__swipe {
+    gap: 6px;
+    margin-bottom: 18px;
+  }
+}
+@media (max-width: 390px) {
+  .destination .slider__icon-left, .destination .slider__icon-mid, .destination .slider__icon-right {
+    width: 8px;
+  }
+}
+.destination .slider__card img {
+  border-radius: 15px;
 }
 
 .stories__fone {

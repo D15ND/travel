@@ -81,13 +81,28 @@
     <h4 class="destination__subtitle">POPULAR DESTINATIONS</h4>
     <div class="slider">
       <div class="slider__card first-slide">
-        <img class="slider__img" src="./assets/desktop/slider_left.png" alt="Spain">
+        <picture>
+          <source media="(max-width: 390px)" srcset="./assets/mobile/slider_left.png">
+          <source media="(min-width: 391px)" srcset="./assets/desktop/slider_left.png">
+          <img src="./assets/desktop/slider_left.png" alt="Slide">
+        </picture>
+        <!-- <img class="slider__img" src="./assets/desktop/slider_left.png" alt="Spain"> -->
       </div>
       <div class="slider__card second-slide">
-        <img class="slider__img" src="./assets/desktop/slider_center.png" alt="Japan">
+        <picture>
+          <source media="(max-width: 390px)" srcset="./assets/mobile/slider_center.png">
+          <source media="(min-width: 391px)" srcset="./assets/desktop/slider_center.png">
+          <img src="./assets/desktop/slider_center.png" alt="Slide">
+        </picture>
+        <!-- <img class="slider__img" src="./assets/desktop/slider_center.png" alt="Japan"> -->
       </div>
       <div class="slider__card third-slide">
-        <img class="slider__img" src="./assets/desktop/slider_rigth.png" alt="USA">
+        <picture>
+          <source media="(max-width: 390px)" srcset="./assets/mobile/slider_rigth.png">
+          <source media="(min-width: 391px)" srcset="./assets/desktop/slider_rigth.png">
+          <img src="./assets/desktop/slider_rigth.png" alt="Slide">
+        </picture>
+        <!-- <img class="slider__img" src="./assets/desktop/slider_rigth.png" alt="USA"> -->
       </div>
     </div>
     <div class="slider__swipe">

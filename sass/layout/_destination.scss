@@ -13,7 +13,7 @@
     margin-bottom: 46px;
     @include media-mobile {
       font-size: 14px;
-      margin-bottom: 20px;
+      margin-bottom: 23px;
     }
   }
 
@@ -23,6 +23,9 @@
     margin-bottom: 24px;
     gap: 60px;
     overflow-x: hidden;
+    @include media-mobile {
+      margin-bottom: -30px;
+    }
   }
 
   .first-slide {
@@ -39,5 +42,21 @@
     gap: 10px;
     text-decoration: none;
     margin-bottom: 33px;
+    @include media-mobile {
+      gap: 6px;
+      margin-bottom: 18px;
+    }
+  }
+
+  .slider__icon-left, .slider__icon-mid, .slider__icon-right {
+    @include media-mobile {
+      width: 8px;
+    }
+  }
+
+  .slider__card {
+    img {
+      border-radius: 15px;
+    }
   }
 }
