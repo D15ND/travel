@@ -1,4 +1,7 @@
 .footer {
+  @include media-mobile {
+    background-size: auto;
+  }
   .wrapper {
     display: flex;
     justify-content: end;

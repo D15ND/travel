@@ -90,13 +90,13 @@
   <section class="destination">
     <h4 class="destination__subtitle">POPULAR DESTINATIONS</h4>
     <div class="slider">
+      <img class="slider__arrow slider__arrow-left" src="./assets/icons/arrow_left.svg" alt="arrow">
       <div class="slider__card first-slide">
         <picture>
           <source media="(max-width: 390px)" srcset="./assets/mobile/slider_left.png">
           <source media="(min-width: 391px)" srcset="./assets/desktop/slider_left.png">
           <img src="./assets/desktop/slider_left.png" alt="Slide">
         </picture>
-        <!-- <img class="slider__img" src="./assets/desktop/slider_left.png" alt="Spain"> -->
       </div>
       <div class="slider__card second-slide">
         <picture>
@@ -104,7 +104,6 @@
           <source media="(min-width: 391px)" srcset="./assets/desktop/slider_center.png">
           <img src="./assets/desktop/slider_center.png" alt="Slide">
         </picture>
-        <!-- <img class="slider__img" src="./assets/desktop/slider_center.png" alt="Japan"> -->
       </div>
       <div class="slider__card third-slide">
         <picture>
@@ -112,18 +111,18 @@
           <source media="(min-width: 391px)" srcset="./assets/desktop/slider_rigth.png">
           <img src="./assets/desktop/slider_rigth.png" alt="Slide">
         </picture>
-        <!-- <img class="slider__img" src="./assets/desktop/slider_rigth.png" alt="USA"> -->
       </div>
+      <img class="slider__arrow slider__arrow-right" src="./assets/icons/arrow_left.svg" alt="arrow">
     </div>
     <div class="slider__swipe">
       <a class="slider__left-swipe" href="#!">
-        <img class="slider__icon-left" src="./assets/icons/leftandright_slider_button.svg" alt="round">
+        <img class="slider__icon slider__icon-left" src="./assets/icons/leftandright_slider_button.svg" alt="round">
       </a>
       <a class="slider__mid-swipe" href="#!">
-        <img class="slider__icon-mid" src="./assets/icons/midle_slider_button.svg" alt="round">
+        <img class="slider__icon slider__icon-mid" src="./assets/icons/leftandright_slider_button.svg" alt="round">
       </a>
       <a class="slider__right-swipe" href="#!">
-        <img class="slider__icon-right" src="./assets/icons/leftandright_slider_button.svg" alt="round">
+        <img class="slider__icon slider__icon-right" src="./assets/icons/leftandright_slider_button.svg" alt="round">
       </a>
     </div>
     <a href="#!" class="destination__button button">
@@ -247,6 +246,7 @@
   </dialog>
   <script src="./javascript/burger.js"></script>
   <script src="./javascript/popup.js"></script>
+  <script src="./javascript/slider.js"></script>
 </body>
 
 </html>
